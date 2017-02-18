@@ -1,0 +1,66 @@
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\csc.exe
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\vbc.exe
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll.config
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Project4WS.pdb
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.csprojResolveAssemblyReference.cache
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.pdb
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Utilities.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\Project4WS\bin\Utilities.pdb
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\csc.exe
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\vbc.exe
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll.config
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Project4WS.pdb
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Utilities.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Utilities.pdb
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.csprojResolveAssemblyReference.cache
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.pdb
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\csc.exe
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.CSharp.Core.targets
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\Microsoft.VisualBasic.Core.targets
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Collections.Immutable.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\System.Reflection.Metadata.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\vbc.exe
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\roslyn\VBCSCompiler.exe.config
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll.config
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Project4WS.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Project4WS.pdb
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Utilities.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Utilities.pdb
+G:\CIS3342\CIS3342Solution(2)\Project4WS\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+G:\CIS3342\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.dll
+G:\CIS3342\CIS3342Solution(2)\Project4WS\obj\Debug\Project4WS.pdb

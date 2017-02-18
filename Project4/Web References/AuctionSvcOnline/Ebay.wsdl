@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="AddBuyer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddBuyerResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddSeller">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddSellerResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="AddProduct">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="ReservePrice" type="s:double" />
+            <s:element minOccurs="1" maxOccurs="1" name="EndDate" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="AddProductResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllProducts">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetAllProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetAllProductsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBid">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="BidPrice" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdateBidResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetBidPrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetBidPriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetBidPriceResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReservePrice">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Description" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetReservePriceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetReservePriceResult" type="s:double" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetUnsoldProducts">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetUnsoldProductsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetUnsoldProductsResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByCategory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="Category" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByCategoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductsByCategoryResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductByReservePriceAsc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductByReservePriceAscResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductByReservePriceAscResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductByReservePriceDesc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductByReservePriceDescResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductByReservePriceDescResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByBidPriceDesc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductsByBidPriceDescResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductsByBidPriceDescResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsByBidPriceAsc">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductsByBidPriceAscResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductsByBidPriceAscResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBuyer">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ID" type="s:int" />
+            <s:element minOccurs="0" maxOccurs="1" name="Name" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CheckBuyerResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="AddBuyerSoapIn">
+    <wsdl:part name="parameters" element="tns:AddBuyer" />
+  </wsdl:message>
+  <wsdl:message name="AddBuyerSoapOut">
+    <wsdl:part name="parameters" element="tns:AddBuyerResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddSellerSoapIn">
+    <wsdl:part name="parameters" element="tns:AddSeller" />
+  </wsdl:message>
+  <wsdl:message name="AddSellerSoapOut">
+    <wsdl:part name="parameters" element="tns:AddSellerResponse" />
+  </wsdl:message>
+  <wsdl:message name="AddProductSoapIn">
+    <wsdl:part name="parameters" element="tns:AddProduct" />
+  </wsdl:message>
+  <wsdl:message name="AddProductSoapOut">
+    <wsdl:part name="parameters" element="tns:AddProductResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetAllProducts" />
+  </wsdl:message>
+  <wsdl:message name="GetAllProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetAllProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBidSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdateBid" />
+  </wsdl:message>
+  <wsdl:message name="UpdateBidSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdateBidResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetBidPriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetBidPrice" />
+  </wsdl:message>
+  <wsdl:message name="GetBidPriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetBidPriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetReservePriceSoapIn">
+    <wsdl:part name="parameters" element="tns:GetReservePrice" />
+  </wsdl:message>
+  <wsdl:message name="GetReservePriceSoapOut">
+    <wsdl:part name="parameters" element="tns:GetReservePriceResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetUnsoldProductsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetUnsoldProducts" />
+  </wsdl:message>
+  <wsdl:message name="GetUnsoldProductsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetUnsoldProductsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByCategorySoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductsByCategory" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByCategorySoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductsByCategoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductByReservePriceAscSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductByReservePriceAsc" />
+  </wsdl:message>
+  <wsdl:message name="GetProductByReservePriceAscSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductByReservePriceAscResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductByReservePriceDescSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductByReservePriceDesc" />
+  </wsdl:message>
+  <wsdl:message name="GetProductByReservePriceDescSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductByReservePriceDescResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByBidPriceDescSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductsByBidPriceDesc" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByBidPriceDescSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductsByBidPriceDescResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByBidPriceAscSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductsByBidPriceAsc" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsByBidPriceAscSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductsByBidPriceAscResponse" />
+  </wsdl:message>
+  <wsdl:message name="CheckBuyerSoapIn">
+    <wsdl:part name="parameters" element="tns:CheckBuyer" />
+  </wsdl:message>
+  <wsdl:message name="CheckBuyerSoapOut">
+    <wsdl:part name="parameters" element="tns:CheckBuyerResponse" />
+  </wsdl:message>
+  <wsdl:portType name="EbaySoap">
+    <wsdl:operation name="AddBuyer">
+      <wsdl:input message="tns:AddBuyerSoapIn" />
+      <wsdl:output message="tns:AddBuyerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddSeller">
+      <wsdl:input message="tns:AddSellerSoapIn" />
+      <wsdl:output message="tns:AddSellerSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <wsdl:input message="tns:AddProductSoapIn" />
+      <wsdl:output message="tns:AddProductSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProducts">
+      <wsdl:input message="tns:GetAllProductsSoapIn" />
+      <wsdl:output message="tns:GetAllProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBid">
+      <wsdl:input message="tns:UpdateBidSoapIn" />
+      <wsdl:output message="tns:UpdateBidSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetBidPrice">
+      <wsdl:input message="tns:GetBidPriceSoapIn" />
+      <wsdl:output message="tns:GetBidPriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetReservePrice">
+      <wsdl:input message="tns:GetReservePriceSoapIn" />
+      <wsdl:output message="tns:GetReservePriceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnsoldProducts">
+      <wsdl:input message="tns:GetUnsoldProductsSoapIn" />
+      <wsdl:output message="tns:GetUnsoldProductsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByCategory">
+      <wsdl:input message="tns:GetProductsByCategorySoapIn" />
+      <wsdl:output message="tns:GetProductsByCategorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceAsc">
+      <wsdl:input message="tns:GetProductByReservePriceAscSoapIn" />
+      <wsdl:output message="tns:GetProductByReservePriceAscSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceDesc">
+      <wsdl:input message="tns:GetProductByReservePriceDescSoapIn" />
+      <wsdl:output message="tns:GetProductByReservePriceDescSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceDesc">
+      <wsdl:input message="tns:GetProductsByBidPriceDescSoapIn" />
+      <wsdl:output message="tns:GetProductsByBidPriceDescSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceAsc">
+      <wsdl:input message="tns:GetProductsByBidPriceAscSoapIn" />
+      <wsdl:output message="tns:GetProductsByBidPriceAscSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CheckBuyer">
+      <wsdl:input message="tns:CheckBuyerSoapIn" />
+      <wsdl:output message="tns:CheckBuyerSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="EbaySoap" type="tns:EbaySoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddBuyer">
+      <soap:operation soapAction="http://tempuri.org/AddBuyer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSeller">
+      <soap:operation soapAction="http://tempuri.org/AddSeller" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <soap:operation soapAction="http://tempuri.org/AddProduct" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProducts">
+      <soap:operation soapAction="http://tempuri.org/GetAllProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBid">
+      <soap:operation soapAction="http://tempuri.org/UpdateBid" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBidPrice">
+      <soap:operation soapAction="http://tempuri.org/GetBidPrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReservePrice">
+      <soap:operation soapAction="http://tempuri.org/GetReservePrice" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnsoldProducts">
+      <soap:operation soapAction="http://tempuri.org/GetUnsoldProducts" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByCategory">
+      <soap:operation soapAction="http://tempuri.org/GetProductsByCategory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceAsc">
+      <soap:operation soapAction="http://tempuri.org/GetProductByReservePriceAsc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceDesc">
+      <soap:operation soapAction="http://tempuri.org/GetProductByReservePriceDesc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceDesc">
+      <soap:operation soapAction="http://tempuri.org/GetProductsByBidPriceDesc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceAsc">
+      <soap:operation soapAction="http://tempuri.org/GetProductsByBidPriceAsc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBuyer">
+      <soap:operation soapAction="http://tempuri.org/CheckBuyer" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="EbaySoap12" type="tns:EbaySoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="AddBuyer">
+      <soap12:operation soapAction="http://tempuri.org/AddBuyer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddSeller">
+      <soap12:operation soapAction="http://tempuri.org/AddSeller" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AddProduct">
+      <soap12:operation soapAction="http://tempuri.org/AddProduct" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllProducts">
+      <soap12:operation soapAction="http://tempuri.org/GetAllProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateBid">
+      <soap12:operation soapAction="http://tempuri.org/UpdateBid" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetBidPrice">
+      <soap12:operation soapAction="http://tempuri.org/GetBidPrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetReservePrice">
+      <soap12:operation soapAction="http://tempuri.org/GetReservePrice" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnsoldProducts">
+      <soap12:operation soapAction="http://tempuri.org/GetUnsoldProducts" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByCategory">
+      <soap12:operation soapAction="http://tempuri.org/GetProductsByCategory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceAsc">
+      <soap12:operation soapAction="http://tempuri.org/GetProductByReservePriceAsc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductByReservePriceDesc">
+      <soap12:operation soapAction="http://tempuri.org/GetProductByReservePriceDesc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceDesc">
+      <soap12:operation soapAction="http://tempuri.org/GetProductsByBidPriceDesc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsByBidPriceAsc">
+      <soap12:operation soapAction="http://tempuri.org/GetProductsByBidPriceAsc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CheckBuyer">
+      <soap12:operation soapAction="http://tempuri.org/CheckBuyer" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Ebay">
+    <wsdl:port name="EbaySoap" binding="tns:EbaySoap">
+      <soap:address location="http://cis-iis2.temple.edu/Fall2016/CIS3342_tuf14442/Project4WS/Ebay.asmx" />
+    </wsdl:port>
+    <wsdl:port name="EbaySoap12" binding="tns:EbaySoap12">
+      <soap12:address location="http://cis-iis2.temple.edu/Fall2016/CIS3342_tuf14442/Project4WS/Ebay.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

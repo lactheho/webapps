@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Project4.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Project4_AuctionSvc_Ebay" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:1737/Ebay.asmx</Value>
+    </Setting>
+    <Setting Name="Project4_AuctionSvcOnline_Ebay" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cis-iis2.temple.edu/Fall2016/CIS3342_tuf14442/Project4WS/Ebay.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

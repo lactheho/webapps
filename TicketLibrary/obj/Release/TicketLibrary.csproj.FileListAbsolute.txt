@@ -1,0 +1,7 @@
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Release\TicketLibrary.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Release\TicketLibrary.pdb
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Release\Utilities.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Release\Utilities.pdb
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Release\TicketLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Release\TicketLibrary.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Release\TicketLibrary.pdb

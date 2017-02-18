@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="TermProject.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="TermProject_CarSVC_CarService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cis-iis2.temple.edu/Fall2016/CIS3342_tuf14442/TermProjectWS/CarService.asmx</Value>
+    </Setting>
+    <Setting Name="TermProject_ActivitiesSVC_ActivitiesService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cis-iis2.temple.edu/Fall2016/CIS3342_tue64727/TermProjectWS/ActivitiesService.asmx</Value>
+    </Setting>
+    <Setting Name="TermProject_HotelSVC_HotelService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cis-iis2.temple.edu/Fall2016/CIS3342_tuf07579/TermProjectWS/HotelService.asmx</Value>
+    </Setting>
+    <Setting Name="TermProject_AirSVC_AirService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://cis-iis2.temple.edu/fall2016/cis3342_tuc12382/TermProjectWS/AirService.asmx</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

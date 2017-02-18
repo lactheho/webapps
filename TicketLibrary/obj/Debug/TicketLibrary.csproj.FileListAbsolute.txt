@@ -1,0 +1,21 @@
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.pdb
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.pdb
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.csprojResolveAssemblyReference.cache
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.dll
+C:\Users\tuf14442\Downloads\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.pdb
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.pdb
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.pdb
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.dll
+C:\Users\Lac Ho\Desktop\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.pdb
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Debug\TicketLibrary.pdb
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\bin\Debug\Utilities.pdb
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.csprojResolveAssemblyReference.cache
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.dll
+G:\CIS3342\CIS3342Solution(2)\TicketLibrary\obj\Debug\TicketLibrary.pdb

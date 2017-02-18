@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>X:\TermProject</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="ActivitiesHomePage.aspx">
+      <publishTime>12/12/2016 20:50:50</publishTime>
+    </File>
+    <File Include="AirHomePage.aspx">
+      <publishTime>12/12/2016 20:54:38</publishTime>
+    </File>
+    <File Include="Background.css">
+      <publishTime>12/12/2016 16:50:56</publishTime>
+    </File>
+    <File Include="bin/AspNet.ScriptManager.jQuery.dll">
+      <publishTime>09/27/2016 12:41:04</publishTime>
+    </File>
+    <File Include="bin/CarServiceLibrary.dll">
+      <publishTime>12/12/2016 20:55:12</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>06/15/2015 03:06:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>06/18/2015 21:19:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>06/18/2015 21:19:46</publishTime>
+    </File>
+    <File Include="bin/TermProject.dll">
+      <publishTime>12/12/2016 20:55:17</publishTime>
+    </File>
+    <File Include="bin/TermProject.XmlSerializers.dll">
+      <publishTime>12/12/2016 20:55:18</publishTime>
+    </File>
+    <File Include="bin/Utilities.dll">
+      <publishTime>12/12/2016 20:55:11</publishTime>
+    </File>
+    <File Include="CarHomePage.aspx">
+      <publishTime>12/12/2016 20:54:38</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>12/12/2016 11:20:46</publishTime>
+    </File>
+    <File Include="HomePage.aspx">
+      <publishTime>12/12/2016 20:48:51</publishTime>
+    </File>
+    <File Include="HotelHomePage.aspx">
+      <publishTime>12/12/2016 20:54:37</publishTime>
+    </File>
+    <File Include="Login.aspx">
+      <publishTime>12/12/2016 11:48:20</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>12/03/2016 22:12:12</publishTime>
+    </File>
+    <File Include="Purchase.aspx">
+      <publishTime>12/12/2016 20:54:38</publishTime>
+    </File>
+    <File Include="Registration.aspx">
+      <publishTime>12/05/2016 19:21:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.js">
+      <publishTime>12/03/2016 22:11:56</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.js">
+      <publishTime>12/03/2016 22:11:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.min.map">
+      <publishTime>12/03/2016 22:11:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.js">
+      <publishTime>12/03/2016 22:11:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.js">
+      <publishTime>12/03/2016 22:11:54</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.1.1.slim.min.map">
+      <publishTime>12/03/2016 22:11:54</publishTime>
+    </File>
+    <File Include="Web References/ActivitiesSVC/Customer.datasource">
+      <publishTime>12/06/2016 10:21:14</publishTime>
+    </File>
+    <File Include="Web References/ActivitiesSVC/Reference.map">
+      <publishTime>12/06/2016 10:21:12</publishTime>
+    </File>
+    <File Include="Web References/AirSVC/Customer.datasource">
+      <publishTime>12/11/2016 17:44:26</publishTime>
+    </File>
+    <File Include="Web References/AirSVC/Reference.map">
+      <publishTime>12/11/2016 17:44:26</publishTime>
+    </File>
+    <File Include="Web References/CarSVC/Reference.map">
+      <publishTime>12/03/2016 16:40:32</publishTime>
+    </File>
+    <File Include="Web References/HotelSVC/Customer.datasource">
+      <publishTime>12/06/2016 10:21:40</publishTime>
+    </File>
+    <File Include="Web References/HotelSVC/Reference.map">
+      <publishTime>12/06/2016 10:21:38</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>12/12/2016 20:55:20</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

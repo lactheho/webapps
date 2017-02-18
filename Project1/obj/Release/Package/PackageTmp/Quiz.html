@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Quiz</title>
+    <meta charset="utf-8" />
+    <style type="text/css">
+    </style>
+</head>
+<body>
+
+    <form id="frmQuiz" method="post" action="Quiz.aspx">
+
+
+        <h1>Welcome to the Kanye West Quiz!</h1>
+        <p>Please enter your name and student ID to begin.</p>
+        <table>
+            <tr>
+                <td>Name:</td>
+                <td>
+                    <input type="text" id="txtUserName" name="txtUserName" />
+
+                </td>
+            </tr>
+            <tr>
+                <td>Student ID:</td>
+                <td>
+                    <input type="text" id="txtStudentID" name="txtStudentID" />
+                </td>
+            </tr>
+        </table>
+
+        <br /><br />
+
+        <table>
+            <tr>
+                <td>1. Who is Kanye West married to?</td>
+                <td>
+                    <select id="question1" name="question1">
+                        <option id="Kendall Jenner" value="Kendall Jenner">Kendall Jenner</option>
+                        <option id="Kim Kardashian" value="Kim Kardashian">Kim Kardashian</option>
+                        <option id="Kylie Jenner" value="Kylie Jenner">Kylie Jenner</option>
+                        <option id="Khloe Kardashian" value="Khloe Kardashian">Khloe Kardashian</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>2. How many children does he have?</td>
+                <td>
+                    <select id="question2" name="question2">
+                        <option id="one" value="One">One</option>
+                        <option id="two" value="Two">Two</option>
+                        <option id="three" value="Three">Three</option>
+                        <option id="four" value="Four">Four</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>3. Where was Kanye West born?</td>
+                <td>
+                    <select id="question3" name="question3">
+                        <option id="Alanta" value="Alanta, Georgia">Alanta, Georgia</option>
+                        <option id="Philadelphia" value="Philadelphia, Pennsylvania">Philadelphia, Pennsylvania</option>
+                        <option id="Cleveland" value="Cleveland, Ohio">Cleveland, Ohio</option>
+                        <option id="Chicago" value="Chicago, Illinois">Chicago, Illinois</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>4. What is his occupation?</td>
+                <td>
+                    <select id="question4" name="question4">
+                        <option id="Singer" value="Singer">Singer</option>
+                        <option id="Rapper" value="Rapper">Rapper</option>
+                        <option id="Fashion Designer" value="Fashion Designer">Fashion Designer</option>
+                        <option id="AlltheAbove" value="All the Above">All the Above</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>5. What genre of music does he produce?</td>
+                <td>
+                    <input type="radio" name="question5" value="Country" checked> Country
+                    <input type="radio" name="question5" value="R&B"> R&B
+                    <input type="radio" name="question5" value="Pop"> Pop
+                    <input type="radio" name="question5" value="Hip-Hop"> Hip-Hop
+                </td>
+            </tr>
+            <tr>
+                <td>6. Which record label did West find?</td>
+                <td>
+                    <input type="radio" name="question6" value="Roc-A-Fella" checked> Roc-A-Fella
+                    <input type="radio" name="question6" value="Def Jam"> Def Jam
+                    <input type="radio" name="question6" value="GOOD Music"> GOOD Music
+                    <input type="radio" name="question6" value="ANTI-"> ANTI-
+                </td>
+            </tr>
+            <tr>
+                <td>7. "Damn, they don't make 'em like this anymore" is from which song?</td>
+                <td>
+                    <input type="radio" name="question7" value="Power" checked> Power
+                    <input type="radio" name="question7" value="Stronger"> Stronger
+                    <input type="radio" name="question7" value="Love Lockdown"> Love Lockdown
+                    <input type="radio" name="question7" value="Monster"> Monster
+                </td>
+            </tr>
+            <tr>
+                <td>8. In 2007, which member of West's family passed away?</td>
+                <td>
+                    <input type="radio" name="question8" value="Mother" checked> Mother
+                    <input type="radio" name="question8" value="Father"> Father
+                    <input type="radio" name="question8" value="Brother"> Brother
+                    <input type="radio" name="question8" value="Sister"> Sister
+                </td>
+            </tr>
+            <tr>
+                <td>9. What is the name of West's first album release?</td>
+                <td>
+                    <input type="checkbox" name="question9" value="808s & Heartbreak"> 808s & Heartbreak
+                    <input type="checkbox" name="question9" value="The College Dropout"> The College Dropout
+                    <input type="checkbox" name="question9" value="Graduation"> Graduation
+                    <input type="checkbox" name="question9" value="The Life of Pablo"> The Life of Pablo
+                </td>
+            </tr>
+            <tr></tr>
+            <tr>
+                <td>10. What is the name of West's 2016 album?</td>
+                <td>
+                    <input type="checkbox" name="question10" value="808s & Heartbreak"> 808s & Heartbreak
+                    <input type="checkbox" name="question10" value="The College Dropout"> The College Dropout
+                    <input type="checkbox" name="question10" value="Graduation"> Graduation
+                    <input type="checkbox" name="question10" value="The Life of Pablo"> The Life of Pablo
+                </td>
+            </tr>
+            <tr>
+                <td>11. "She got one of your kids, got you for 18 years" is from which song?</td>
+                <td>
+                    <input type="checkbox" name="question11" value="Power"> Power
+                    <input type="checkbox" name="question11" value="Gold Digger"> Gold Digger
+                    <input type="checkbox" name="question11" value="Heartless"> Heartless
+                    <input type="checkbox" name="question11" value="Mercy"> Mercy
+                </td>
+            </tr>
+            <tr>
+                <td>12. Who did West collaborate with to produce the album "Watch the Throne"?</td>
+                <td>
+                    <input type="checkbox" name="question12" value="Jay Z"> Jay Z
+                    <input type="checkbox" name="question12" value="Big Sean"> Big Sean
+                    <input type="checkbox" name="question12" value="2 Chainz"> 2 Chainz
+                    <input type="checkbox" name="question12" value="Rihanna"> Rihanna
+                </td>
+            </tr>
+            <tr>
+                <td>13. In the 2009 MTV Video Music Awards, who did West interrupt during an award speech?</td>
+                <td>
+                    <input type="text" id="question13" name="question13" />
+                </td>
+            </tr>
+            <tr>
+                <td>14. Which company does West collaborate with for his clothing line?</td>
+                <td>
+                    <input type="text" id="question14" name="question14" />
+                </td>
+            </tr>
+            <tr>
+                <td>15. What is his clothing line called?</td>
+                <td>
+                    <input type="text" id="question15" name="question15" />
+                </td>
+            </tr>
+
+        </table>
+
+        <br />
+
+        <input type="submit" id="btnSubmit" value="Submit" />
+
+
+    </form>
+</body>
+</html>
